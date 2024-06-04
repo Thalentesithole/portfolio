@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+
+    <!--========= Remixicons ============-->
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+
+    <!--========= css ============-->
+    <link rel="stylesheet" href = "assets/stylesheet.css"/>
+</head>
+
+<body>
+    <!--========= Header ============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="Portfolio.html" class="nav__link active-link">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--========= project details ============-->
+    <div class="project__header"></div>
+
+
+    <section class="container">
+        <div class="project__data">
+            <a href="Portfolio.html" class="back__to-home text-xs"><i class="ri-arrow-left-line"></i>Back</a>
+
+            <h2 class="project__info-title">Customer Service Bots Explanation</h2>
+            <h3 class="project__info-subtitle">1. Objective</h3>
+            <p class="project__info text-lg">The objective of this project is to plan and develop a sport management system that will keep tabs on athletes, games, and leagues. 
+                This will automatically update following each game, making it easy for league administrators to distribute the most recent information to teams and fans. Databases are used to store all collected data. 
+                Any league official will be able to update through this program and generate reports after each game week with a simple HCI implementation.
+            </p>
+            <h3 class="project__info-subtitle">2. Data Gathering</h3>
+            <p class="project__info text-lg">While trying to identifying our users we checked how the current system is implemented. We observed that all match and score tracking is paper-based. Coaches provide their team sheet to league officials for approval. Coaches and league officials were identified.
+            </p>
+            <h3 class="project__info-subtitle">3. Agile Approach</h3>
+            <p class="project__info text-lg">Cycle 0 is user research to find out exactly what our intended users need and are looking for in the program that would be designed. To achieve this, we spoke to some people at a cricket club, mostly league officials and coaches, to find out what it was that they required. After each sprint a user would be consulted to gauge user feedback. This is a crucial role and would allow us to be user centric in our approach.
+            </p>
+
+            <figure>
+                <img src="assets/Images/Landing page.jpg" alt="">
+                <figcaption>Landing Page</figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/Images/Coaches.jpg" alt="">
+                <figcaption>This is the page where you can choose the team you want to track</figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/Images/Teams.jpg" alt="">
+                <figcaption>This diplays deatils of the team you chose to track</figcaption>
+            </figure>
+
+            <a href="assets/Enron_Grouo_16_v1.pdf" class="button button--flex text-sm">
+                <h3 class="download">Download documentation</i></h3>
+            </a>
+
+            <a href="https://github.com/Thalentesithole/Capstone-group16" class="project__link text-sm">Source Code<i class="ri-arrow-right-line"></i></a>
+
+            
+        </div>
+    </section>
+    
+
+    <!--========= Contacts ============-->
+    <section class="contact section" id="contact">
+                <div class="contact__content container">
+                    <h2 class="section__title">Get in touch_</h2>
+    
+                    <div class="contact__container grid">
+                        <div class="contact__info">
+                            <dl class="contact__list">
+                                <dt>Phone:</dt>
+                                <dd>+27 73 775 6626</dt>
+                                <dt>Skype:</dt>
+                                <dd>thalente</dt>
+                                <dt>Email:</dt>
+                                <dd>Thalentesithole1@gmail.com</dt>
+                            </dl>
+    
+                            <ul class="contact__socials">
+                                <li>
+                                    <a href="" class="contact__socials-link">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="" class="contact__socials-link">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="" class="contact__socials-link">GitHUb</a>
+                                </li>
+                                <li>
+                                    <a href="" class="contact__socials-link">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="contact__form">
+                            <p class="contact__form-title">Or send a message  here_</p>
+    
+                            <form action="" id="contact-form">
+                                <div class="contact__input-div">
+                                    <input 
+                                        type="text" 
+                                        name="name"
+                                        placeholder="Your name" 
+                                        class="contact__input"
+                                        id="contact-name"
+                                    />
+                                </div>
+    
+                                <div class="contact__input-div">
+                                    <input 
+                                        type="email" 
+                                        name="email"
+                                        placeholder="Your e-mail" 
+                                        class="contact__input"
+                                        id="contact-email"
+                                    />
+                                </div>
+    
+                                <div class="contact__input-div">
+                                    <textarea 
+                                    name="message"
+                                        placeholder="Type your message here" 
+                                        class="contact__input textarea" 
+                                        id="message" 
+                                        cols="30" 
+                                        rows="10"
+                                    ></textarea>
+                                </div>
+    
+                                <p class="contact__message text-sm"
+                                id="contact-message">
+                                    message
+                                </p>
+    
+                                <button type="submit" class="button contact__button">
+                                    SEND
+                                </button>
+                            </form>
+    
+                            <p class="footer__copy">
+                                &copy; 2024 Thalente Sithole. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!--========= Email ============-->
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--========= js ============-->
+    <script 
+        src="assets/js/common.js"
+    ></script>    
+</body>
+</html>
